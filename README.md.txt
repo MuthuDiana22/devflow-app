@@ -24,8 +24,39 @@ Version Control: Git & GitHub
 ⚙️ How to Run Locally
 
 Prerequisites
+
 Node.js installed
 MongoDB Atlas account or local MongoDB
+
 1. Clone the Repository
 git clone https://github.com/YOUR_USERNAME/devflow-app.gitcd devflow-app
+
 2. Setup Backend
+
+cd devflow-backend
+npm install
+
+Create a .env file in the devflow-backend folder and add:
+
+Start the backend server:
+
+node server.js
+
+3. Setup Frontend
+
+Open a new terminal:
+
+cd devflow-frontend
+npm install
+npm start
+
+The app will open at http://localhost:3000.
+
+Running Tests
+
+To run the automated API tests (CI/CD ready):
+
+cd devflow-backend
+npm test
+
+Built by R Muthu Diana
